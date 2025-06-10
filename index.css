@@ -1,0 +1,57 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+body{
+	width:100vw;
+	height:100vh;
+	overflow:hidden auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+html{
+	font-size:10px;
+}
+#frm{
+	width:60%;
+	height:55rem;
+	border:2px solid black;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	background-color:blue;
+}
+
+#nam{
+	height:5rem;
+	width:30%;
+	
+}
+#em{
+	height:5rem;
+	width:30%;	
+}
+#con{
+    height:5rem;
+	width:30%;
+}
+#qualification{
+    height:5rem;
+	width:30%;
+}
+#dt{
+   height:5rem;
+	width:30%;
+}
+#btn{
+	height:5rem;
+	width:30%;
+	background-color:green;
+}
+label{
+ 
+ padding-right:135px;
+}

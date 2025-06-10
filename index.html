@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head> 
+   <title>Registration Form</title>
+  <link href="index.css" type="text/css" rel="stylesheet">
+  <script src="index.js">
+  </script>
+</head>
+<body>
+   <form action="/register" method="POST" id="frm" onsubmit="return validateform()">
+     <label for="nam" style=font-size:2rem;>Enter name</label><br>
+     <input type="text" name="name" placeholder="Enter name" id="nam"><br>
+	 
+	 <label style=font-size:2rem;>Enter email</label><br>
+     <input type="em" name="email" placeholder="Enter email" id="em"><br>
+	 
+	 <label style=font-size:2rem;>Enter contact</label><br>
+     <input type="text" name="contact" placeholder="Enter contact" id="con"><br>
+   
+     <select name="qualification" id="qualification">
+	    <option value="">Select Qualification
+		<option value="B.E">B.E</option>
+		<option value="MCA">MCA</option>
+		<option value="BCA">BCA</option>
+	 </select>
+	 
+	 <br>
+	 <label for="dt" style=font-size:2rem;>Enter date</label><br>
+     <input type="date" name="dob" id="dt"><br>
+	 
+	 <button type="submit" id="btn">Register</button>
+   
+   </form>
+   
+</body>
+</html>
